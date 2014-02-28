@@ -24,8 +24,7 @@ public class BallControl : MonoBehaviour {
 	void OnCollisionEnter(Collision collision)
 	{
 		foreach (var contact in collision.contacts) {
-			Debug.Log(contact.GetType());
-		
+			Destroy(gameObject);
 		}
 	}
 
