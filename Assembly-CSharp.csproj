@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\BallControl.cs" />
      <Compile Include="Assets\ballScript.cs" />
+     <None Include="Assets\groundShader.shader" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
