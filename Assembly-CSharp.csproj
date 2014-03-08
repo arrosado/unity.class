@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{D06C7B4F-956E-6602-A577-DEFB59D040C2}</ProjectGuid>
+	<ProjectGuid>{2AD6BCA8-6E72-09CB-233B-BB20808EDE17}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,15 +46,39 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\BallControl.cs" />
-     <Compile Include="Assets\ballScript.cs" />
-     <None Include="Assets\groundShader.shader" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{1E29823C-1F33-17EE-3F96-8DE22B9F2923}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{912185C2-7ACB-88E8-59CB-6E81B909C62F}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+     <Compile Include="Assets\Done\Done_Scripts\Done_BGScroller.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByBoundary.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByContact.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_DestroyByTime.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_EvasiveManeuver.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_GameController.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_Mover.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_PlayerController.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_RandomRotator.cs" />
+     <Compile Include="Assets\Done\Done_Scripts\Done_WeaponController.cs" />
+     <Compile Include="Assets\Scripts\BackgroundParallax.cs" />
+     <Compile Include="Assets\Scripts\BackgroundPropSpawner.cs" />
+     <Compile Include="Assets\Scripts\Bomb.cs" />
+     <Compile Include="Assets\Scripts\BombPickup.cs" />
+     <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Destroyer.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\Gun.cs" />
+     <Compile Include="Assets\Scripts\HealthPickup.cs" />
+     <Compile Include="Assets\Scripts\LayBombs.cs" />
+     <Compile Include="Assets\Scripts\Pauser.cs" />
+     <Compile Include="Assets\Scripts\PickupSpawner.cs" />
+     <Compile Include="Assets\Scripts\PlayerControl.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Remover.cs" />
+     <Compile Include="Assets\Scripts\Rocket.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\ScoreShadow.cs" />
+     <Compile Include="Assets\Scripts\SetParticleSortingLayer.cs" />
+     <Compile Include="Assets\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Scripts\spaceman_code.cs" />
+     <Compile Include="Assets\Scripts\spaceman_control.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
